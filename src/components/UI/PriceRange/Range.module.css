@@ -1,0 +1,48 @@
+.range {
+  padding-bottom: 1rem;
+
+  input[type="range"] {
+    border-radius: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 5px;
+    background-color: var(--dark-gray);
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    background-color: var(--yellow);
+    border-radius: 1000px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+
+    background-color: var(--yellow);
+    border-radius: 1000px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+  }
+
+  input[type="range"]:focus {
+    outline: none;
+  }
+
+  input[type="range"]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+
+    /* Hides the slider so custom styles can be added */
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+}

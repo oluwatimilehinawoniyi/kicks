@@ -1,0 +1,17 @@
+.recommendation {
+  padding: 1rem;
+  background-color: var(--light-gray);
+
+  div:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 2rem;
+  }
+}

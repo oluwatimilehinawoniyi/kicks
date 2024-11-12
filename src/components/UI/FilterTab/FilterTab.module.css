@@ -1,0 +1,57 @@
+.filter_tab {
+  background-color: var(--light-gray);
+}
+
+.filter_tab_modal {
+  z-index: 1000;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  .filter_tab_content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .filter_tab_head {
+    padding: 1rem;
+    padding-top: 1.5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 1rem;
+    }
+  }
+
+  .filter_tab_filters {
+    max-height: 400px;
+    overflow-y: scroll;
+    height: max-content;
+    padding: 1rem;
+    padding-bottom: 0;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .filter_tab_btn {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

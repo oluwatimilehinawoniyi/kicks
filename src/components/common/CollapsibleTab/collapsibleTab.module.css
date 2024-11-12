@@ -1,0 +1,19 @@
+.collapsible_title {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+
+  p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collapsible_content {
+  overflow: hidden;
+}

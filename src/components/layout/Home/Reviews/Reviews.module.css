@@ -1,0 +1,21 @@
+.reviews {
+  padding: 1rem;
+  background-color: var(--light-gray);
+
+  @media (min-width: 1024px) {
+    padding: 2rem;
+  }
+}
+
+.review_box {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 1.5rem;
+
+  @media (min-width: 1024px) {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+}

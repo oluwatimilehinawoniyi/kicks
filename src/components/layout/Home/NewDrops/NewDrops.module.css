@@ -1,0 +1,20 @@
+.newDrops {
+  padding: 1rem;
+  background-color: var(--light-gray);
+
+  @media (min-width: 1024px) {
+    padding: 2rem;
+  }
+}
+
+.newDropProducts {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+}

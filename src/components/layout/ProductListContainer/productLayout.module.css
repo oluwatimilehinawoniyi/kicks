@@ -1,0 +1,13 @@
+.productLayout {
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  background: var(--light-gray);
+
+  @media (min-width: 1024px) {
+    padding: 2rem;
+    gap: 2rem;
+  }
+}

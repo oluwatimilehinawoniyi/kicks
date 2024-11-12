@@ -1,0 +1,17 @@
+.colourChoice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.colourWrapper {
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.colour {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}

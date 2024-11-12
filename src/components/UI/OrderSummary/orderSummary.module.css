@@ -1,0 +1,39 @@
+.summary {
+  padding: 1rem;
+
+  h1 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    /* width: 40%; */
+  }
+}
+
+.receipt {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.receipt span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.receipt span p:first-of-type {
+  text-transform: capitalize;
+}
+
+.receipt span:last-of-type {
+  border-block: 1px solid var(--dark-gray);
+  padding-block: 0.5rem;
+
+  p:first-of-type {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}

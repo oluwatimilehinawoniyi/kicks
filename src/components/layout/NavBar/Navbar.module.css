@@ -1,0 +1,44 @@
+.nav {
+  background-color: var(--light-gray);
+  padding: 1rem;
+
+  @media (min-width: 1024px) {
+    padding: 2rem 2rem 0rem;
+  }
+}
+
+.navItems {
+  background-color: #fff;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  @media (min-width: 1024px) {
+    padding-inline: 2rem;
+  }
+}
+
+.navMenu,
+.navLogo,
+.navCart {
+  flex: 1;
+  display: flex;
+}
+
+.navLogo {
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenu {
+  justify-content: flex-start;
+}
+
+.navCart {
+  display: flex;
+  justify-content: flex-end;
+}
