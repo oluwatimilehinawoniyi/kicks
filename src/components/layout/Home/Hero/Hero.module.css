@@ -26,6 +26,11 @@
     letter-spacing: 1px;
   }
 
+  @media (min-width: 768px) {
+    transform: translate(-16px, 50%);
+    top: 20%;
+  }
+
   @media (min-width: 1024px) {
     transform: translate(-32px, 60%);
     top: 20%;
