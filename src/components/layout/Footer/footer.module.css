@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
@@ -74,11 +74,19 @@
   input::placeholder {
     color: #fff;
   }
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .kicksPlus_logo {
   img {
     width: 100%;
+
+    @media (min-width: 768px) {
+      width: 200px;
+    }
   }
 }
 
@@ -90,7 +98,7 @@
   background-color: var(--dark-gray);
   border-radius: 1rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     flex-direction: row;
     border-radius: 2rem;
     justify-content: space-between;
@@ -102,7 +110,8 @@
   flex-direction: column;
   gap: 1.5rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
+    flex-wrap: wrap;
     padding: 2rem 2rem 0rem 1rem;
     flex-direction: row;
     justify-content: space-between;
@@ -142,7 +151,7 @@
 .footerLinks_content {
   margin-bottom: 5rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     margin-bottom: 14rem;
   }
 }
@@ -153,11 +162,11 @@
   bottom: -40px;
   left: 0;
   right: 0;
-  
+
   /*
   height: 200px;
   */
-  
+
   @media (min-width: 1024px) {
     bottom: -20px;
     height: 200px;
