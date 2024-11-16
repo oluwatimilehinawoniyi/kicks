@@ -8,7 +8,7 @@
     margin: 1rem 0;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     padding: 2rem 0 0 2rem;
 
     h2 {
@@ -46,7 +46,7 @@
       text-transform: uppercase;
       font-weight: 600;
 
-      @media (min-width: 1024px) {
+      @media (min-width: 768px) {
         font-size: 2rem;
       }
     }
@@ -64,8 +64,10 @@
     }
   }
 
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
   @media (min-width: 1024px) {
     height: 500px;
-    padding: 2rem;
   }
 }

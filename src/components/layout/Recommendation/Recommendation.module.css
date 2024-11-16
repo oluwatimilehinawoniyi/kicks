@@ -11,7 +11,7 @@
     text-transform: capitalize;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     padding: 2rem;
   }
 }
