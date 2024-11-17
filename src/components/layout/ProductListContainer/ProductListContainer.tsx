@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import useFetchShoes from "@/hooks/useFetchShoes";
 
 export default function ProductListContainer() {
-  const { shoes } = useFetchShoes();
+  const { shoes, loading, error } = useFetchShoes();
 
 
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -37,7 +37,10 @@ export default function ProductListContainer() {
         <FilterTab handleFilterToggle={handleFilterToggle} />
       </div>
       <div className={styles.products_tab_section}>
-        <ProductsList products={shoes} />
+        {
+          loading ? <p>Loading...</p> : error ? <p>{error}</p> :
+            <ProductsList products={shoes} />
+        }
       </div>
 
 

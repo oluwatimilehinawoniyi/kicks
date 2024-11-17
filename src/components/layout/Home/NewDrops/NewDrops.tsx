@@ -19,11 +19,14 @@ const NewDrops = () => {
 export default NewDrops;
 
 function NewDropsContainer() {
-  const { shoes } = useFetchShoes()
+  const { shoes, loading, error } = useFetchShoes()
+
+  if (loading) return <p>Loading...</p>
+  if (error) return <p>Error: {error}</p>
 
   return (
     <section className={styles.newDropProducts}>
-      {shoes.slice(0, 4).map(({ name, price, tag, imgSrc }, index) => (
+      {shoes.slice(0, 8).map(({ name, price, tag, imgSrc }, index) => (
         <Product key={index} name={name} price={price} tag={tag} imgSrc={imgSrc} />
       ))}
     </section>
