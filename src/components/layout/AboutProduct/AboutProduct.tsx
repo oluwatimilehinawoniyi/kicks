@@ -4,35 +4,43 @@ import Button from '@/components/common/Button/Button'
 import { useParams } from "react-router-dom"
 import Choice from '@/components/UI/Choice/Choice';
 import ColorChoice from '@/components/UI/ColourChoice/ColourChoice';
+import useFetchShoes from '@/hooks/useFetchShoes';
 
 const sizes = [
-    { value: "38", available: true },
-    { value: "39", available: true },
-    { value: "40", available: true },
-    { value: "41", available: false },
-    { value: "42", available: true },
-    { value: "43", available: true },
-    { value: "44", available: false },
-    { value: "45", available: true },
-    { value: "46", available: true },
-    { value: "47", available: false },
+    { value: 38, available: false },
+    { value: 39, available: false },
+    { value: 40, available: false },
+    { value: 41, available: false },
+    { value: 42, available: false },
+    { value: 43, available: false },
+    { value: 44, available: false },
+    { value: 45, available: false },
+    { value: 46, available: false },
+    { value: 47, available: false },
 ];
 
-const colours = [
-    "var(--blue)",
-    "var(--yellow)",
-    "var(--dark-gray)",
-    "white",
-    "#234D41",
-    "#F08155",
-];
 
 export default function AboutProduct() {
     const { name } = useParams();
+    const { shoes } = useFetchShoes()
+
+
+    const product = shoes.filter(shoe => shoe.name === name?.replaceAll('-', ' '))[0];
+
+    const availableSizes = sizes?.map(item => {
+        if (product?.size?.includes(item.value)) {
+            item.available = true;
+        }
+
+        return item
+    });
+
+
+
     return (
         <section className={styles.aboutProduct}>
             <div className={styles.imageHolder}>
-                <img className={styles.mainImage} src="/src/assets/images/hero.png" alt="" />
+                <img className={styles.mainImage} src={product?.imgSrc} alt="" />
                 <img className={styles.imageOne} src="/src/assets/images/hero.png" alt="" />
                 <img className={styles.imageTwo} src="/src/assets/images/hero.png" alt="" />
                 <img className={styles.imageThree} src="/src/assets/images/hero.png" alt="" />
@@ -44,13 +52,13 @@ export default function AboutProduct() {
                         <p>new release</p>
                     </div>
                     <h1 className={styles.title}>{name?.split('-').join(" ").toUpperCase()}</h1>
-                    <p className={styles.price}>$125.00</p>
+                    <p className={styles.price}>${product?.price}</p>
 
                     <div className="colorChoice">
-                        <ColorChoice colours={colours} />
+                        <ColorChoice colours={product?.colors} />
                     </div>
                     <div className={styles.sizeChoice}>
-                        <Choice role="size" sizes={sizes} width="100%" />
+                        <Choice role="size" sizes={availableSizes} width="100%" />
                     </div>
                     <div className={styles.CTA}>
                         <div className="">

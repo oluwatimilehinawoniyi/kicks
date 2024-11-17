@@ -3,16 +3,17 @@ import styles from "./Product.module.css";
 import { Link } from "react-router-dom";
 
 interface ProductProps {
-  title: string;
+  name: string;
   price: number;
   tag: string;
   imgSrc: string;
 }
 
-export default function Product({ title, price, tag, imgSrc }: ProductProps) {
+export default function Product({ name, price, tag, imgSrc }: ProductProps) {
+
   return (
     <li className={styles.product}>
-      <Link to={`/shoes/${title.split(' ').join('-')}`}>
+      <Link to={`/shoes/${name?.split(' ').join('-')}`}>
         <div className={styles.product_image}>
           <div
             className={styles.product_tag}
@@ -23,9 +24,9 @@ export default function Product({ title, price, tag, imgSrc }: ProductProps) {
           >
             <p>{tag}</p>
           </div>
-          <img src={imgSrc} alt={title} />
+          <img src={imgSrc} alt={name} />
         </div>
-        <h3>{title}</h3>
+        <h3>{name}</h3>
         <Button style={{
           width: "100%",
           backgroundColor: "var(--dark-gray)"

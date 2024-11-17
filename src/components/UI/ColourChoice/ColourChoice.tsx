@@ -18,7 +18,7 @@ export default function ColorChoice({ colours }: ColorChoiceProps) {
     return (
         <div className={styles.colourChoice}>
             {
-                colours.map((colour, index) => (
+                colours?.map((colour, index) => (
                     <div key={index}
                         className={styles.colourWrapper}
                         style={{

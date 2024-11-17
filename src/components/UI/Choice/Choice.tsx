@@ -6,7 +6,7 @@ interface BaseProps {
 
 interface SizeProps extends BaseProps {
   role: "size";
-  sizes: { value: string; available: boolean }[];
+  sizes: { value: number; available: boolean }[];
 }
 
 interface ColourProps extends BaseProps {

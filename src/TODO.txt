@@ -1,0 +1,9 @@
+1. Connect to Backend
+2. Remember to add Description field to products
+3. Create Cart System (local storage)
+4. Integrate Redux
+5. Integrate Payment
+6. Integrate Auth
+7. Make recommendation & new drops vary per component mounting
+8. Integrate Cloudinary - (Backend)
+9. Run Tests

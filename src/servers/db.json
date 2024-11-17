@@ -1,0 +1,596 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Puma Air Force 1",
+      "price": 139,
+      "size": [
+        41,
+        47,
+        40,
+        46,
+        43
+      ],
+      "colors": [
+        "var(--yellow)",
+        "#FFFFFF",
+        "#F5DEB3",
+        "#234D41",
+        "white"
+      ],
+      "category": [
+        "Outdoor",
+        "Golf",
+        "Casual Shoes",
+        "Basketball"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Adidas Mini Glide 1",
+      "price": 136,
+      "size": [
+        41,
+        38,
+        40,
+        47,
+        46,
+        43
+      ],
+      "colors": [
+        "#000000",
+        "var(--yellow)",
+        "#808080",
+        "#FFFFFF"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Outdoor",
+        "Basketball"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 3,
+      "name": "Reebok Air Sprint 99",
+      "price": 105,
+      "size": [
+        38,
+        39,
+        40
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000",
+        "#00274D",
+        "#F5DEB3"
+      ],
+      "category": [
+        "Basketball",
+        "Sneaker"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 4,
+      "name": "Puma Air Trail 07",
+      "price": 113,
+      "size": [
+        42,
+        40,
+        44,
+        46,
+        45
+      ],
+      "colors": [
+        "var(--dark-gray)",
+        "#F5DEB3",
+        "#228B22",
+        "#808080"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Runner",
+        "Golf"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 5,
+      "name": "New Balance Ultra Xplorer 3",
+      "price": 95,
+      "size": [
+        41,
+        40,
+        39,
+        46
+      ],
+      "colors": [
+        "#808080",
+        "#F08155",
+        "#FF4500",
+        "#FFFFFF"
+      ],
+      "category": [
+        "Hiking",
+        "Basketball"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 6,
+      "name": "Adidas Pro Runner 07",
+      "price": 127,
+      "size": [
+        39,
+        41,
+        47,
+        43
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#F08155",
+        "#00274D",
+        "#234D41",
+        "#000000",
+        "var(--yellow)"
+      ],
+      "category": [
+        "Golf",
+        "Basketball"
+      ],
+      "gender": "Unisex",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 7,
+      "name": "Adidas Mini Predator X",
+      "price": 96,
+      "size": [
+        44,
+        42,
+        41,
+        40,
+        43,
+        46
+      ],
+      "colors": [
+        "white",
+        "#FF4500",
+        "#A52A2A",
+        "#F08155",
+        "var(--dark-gray)",
+        "#228B22"
+      ],
+      "category": [
+        "Basketball",
+        "Hiking"
+      ],
+      "gender": "Male",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 8,
+      "name": "Puma Pro Predator X",
+      "price": 124,
+      "size": [
+        41,
+        42,
+        40,
+        45,
+        39
+      ],
+      "colors": [
+        "#000000",
+        "#F08155",
+        "#FFFFFF",
+        "#234D41",
+        "#FF4500",
+        "var(--blue)"
+      ],
+      "category": [
+        "Casual Shoes"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 9,
+      "name": "Puma Classic Xplorer XI",
+      "price": 148,
+      "size": [
+        38,
+        45,
+        44,
+        39
+      ],
+      "colors": [
+        "#228B22",
+        "#FF4500"
+      ],
+      "category": [
+        "Sneaker",
+        "Hiking",
+        "Runner",
+        "Golf"
+      ],
+      "gender": "Unisex",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 10,
+      "name": "Reebok Predator Predator Elite",
+      "price": 119,
+      "size": [
+        41,
+        44,
+        45,
+        40
+      ],
+      "colors": [
+        "#00274D",
+        "#F08155"
+      ],
+      "category": [
+        "Basketball",
+        "Outdoor",
+        "Casual Shoes"
+      ],
+      "gender": "Unisex",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 11,
+      "name": "Reebok Speed Sprint XI",
+      "price": 146,
+      "size": [
+        44,
+        45,
+        41,
+        40
+      ],
+      "colors": [
+        "#000000"
+      ],
+      "category": [
+        "Golf",
+        "Casual Shoes",
+        "Hiking"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 12,
+      "name": "Under Armour Predator Runner 07",
+      "price": 70,
+      "size": [
+        39
+      ],
+      "colors": [
+        "var(--dark-gray)",
+        "#228B22"
+      ],
+      "category": [
+        "Runner"
+      ],
+      "gender": "Unisex",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 13,
+      "name": "Under Armour Pro Xplorer 2",
+      "price": 136,
+      "size": [
+        47,
+        44,
+        45
+      ],
+      "colors": [
+        "#228B22",
+        "#FF4500",
+        "#FFFFFF"
+      ],
+      "category": [
+        "Sneaker",
+        "Golf"
+      ],
+      "gender": "Male",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 14,
+      "name": "Adidas Speed Predator 07",
+      "price": 129,
+      "size": [
+        42,
+        38
+      ],
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#FF4500"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Runner"
+      ],
+      "gender": "Unisex",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 15,
+      "name": "New Balance Classic Sprint X",
+      "price": 109,
+      "size": [
+        46
+      ],
+      "colors": [
+        "var(--blue)"
+      ],
+      "category": [
+        "Golf",
+        "Outdoor",
+        "Basketball"
+      ],
+      "gender": "Male",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 16,
+      "name": "Nike Speed Xplorer 2",
+      "price": 102,
+      "size": [
+        44,
+        43
+      ],
+      "colors": [
+        "#F5DEB3",
+        "#FFFFFF"
+      ],
+      "category": [
+        "Outdoor",
+        "Hiking",
+        "Basketball",
+        "Casual Shoes"
+      ],
+      "gender": "Male",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 17,
+      "name": "New Balance Classic Trail XI",
+      "price": 132,
+      "size": [
+        39,
+        45
+      ],
+      "colors": [
+        "#228B22",
+        "var(--blue)"
+      ],
+      "category": [
+        "Outdoor",
+        "Casual Shoes",
+        "Runner",
+        "Hiking"
+      ],
+      "gender": "Unisex",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 18,
+      "name": "New Balance Mini Force 2",
+      "price": 95,
+      "size": [
+        44,
+        46,
+        47,
+        42,
+        40
+      ],
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "white",
+        "#234D41"
+      ],
+      "category": [
+        "Basketball",
+        "Runner",
+        "Hiking"
+      ],
+      "gender": "Male",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 19,
+      "name": "Under Armour Classic Trail 3",
+      "price": 97,
+      "size": [
+        47,
+        40,
+        41,
+        39,
+        43
+      ],
+      "colors": [
+        "#228B22",
+        "#FF4500",
+        "#FFFFFF"
+      ],
+      "category": [
+        "Runner",
+        "Casual Shoes"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 20,
+      "name": "Puma Classic Xplorer XI",
+      "price": 130,
+      "size": [
+        45,
+        46,
+        38,
+        43,
+        44,
+        47
+      ],
+      "colors": [
+        "white",
+        "#FFD700",
+        "#F08155"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Runner"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 21,
+      "name": "Reebok Predator Runner 3",
+      "price": 143,
+      "size": [
+        45,
+        38,
+        41,
+        47,
+        46,
+        43
+      ],
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#234D41",
+        "white",
+        "#FF4500"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Runner",
+        "Outdoor",
+        "Sneaker"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 22,
+      "name": "Nike Air Xplorer 1",
+      "price": 99,
+      "size": [
+        45,
+        43
+      ],
+      "colors": [
+        "#00274D"
+      ],
+      "category": [
+        "Casual Shoes",
+        "Golf",
+        "Runner",
+        "Outdoor"
+      ],
+      "gender": "Male",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 23,
+      "name": "Nike Ultra Predator 07",
+      "price": 121,
+      "size": [
+        45,
+        46,
+        40,
+        39,
+        47
+      ],
+      "colors": [
+        "var(--yellow)",
+        "#FFD700",
+        "#FF4500"
+      ],
+      "category": [
+        "Sneaker",
+        "Runner"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 24,
+      "name": "New Balance Speed Xplorer Elite",
+      "price": 94,
+      "size": [
+        44
+      ],
+      "colors": [
+        "#808080"
+      ],
+      "category": [
+        "Hiking"
+      ],
+      "gender": "Female",
+      "tag": "new",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    },
+    {
+      "id": 25,
+      "name": "Under Armour Ultra Runner 07",
+      "price": 140,
+      "size": [
+        44,
+        45,
+        42
+      ],
+      "colors": [
+        "#808080",
+        "#000000",
+        "#234D41",
+        "#FFFFFF",
+        "var(--blue)",
+        "#FFD700"
+      ],
+      "category": [
+        "Sneaker",
+        "Casual Shoes"
+      ],
+      "gender": "Female",
+      "tag": "10% off",
+      "imgSrc": "/src/assets/images/new drops/product-1.png"
+    }
+  ]
+}
