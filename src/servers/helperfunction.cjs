@@ -6,8 +6,8 @@ var brands = [
     "Adidas",
     "Puma",
     "Reebok",
-    "New Balance",
-    "Under Armour",
+    "Ashluxe",
+    "Vapor",
 ];
 var adjectives = [
     "Air",
@@ -27,7 +27,7 @@ var themes = [
     "Sprint",
     "Trail",
 ];
-var numbers = ["1", "2", "3", "07", "X", "Elite", "XI", "99"];
+var numbers = ["1", "2", "3", "07", "X", "II", "XI", "99"];
 var getRandomName = function () {
     var brand = getRandomItem(brands);
     var adjective = getRandomItem(adjectives);

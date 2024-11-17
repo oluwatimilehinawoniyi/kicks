@@ -4,7 +4,6 @@
 4. Integrate Redux
 5. Integrate Payment
 6. Integrate Auth
-7. Make recommendation & new drops vary per component mounting
-8. Integrate Cloudinary - (Backend)
-9. Run Tests
-10. Performance check - lazy loading (component shimmering, etc)
+7. Integrate Cloudinary - (Backend)
+8. Run Tests
+9. Performance check - lazy loading (component shimmering, etc)

@@ -22,7 +22,7 @@ export default function ProductsList({
 
   return (
     <ul className={styles.productsList}>
-      {products.map((product, index) => (
+      {products?.map((product, index) => (
         <Product key={index}
           name={product.name}
           price={product.price}

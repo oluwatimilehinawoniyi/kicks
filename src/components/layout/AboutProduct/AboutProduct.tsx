@@ -52,7 +52,7 @@ export default function AboutProduct() {
                         <p>new release</p>
                     </div>
                     <h1 className={styles.title}>{name?.split('-').join(" ").toUpperCase()}</h1>
-                    <p className={styles.price}>${product?.price}</p>
+                    <p className={styles.price}>${product?.price}.00</p>
 
                     <div className="colorChoice">
                         <ColorChoice colours={product?.colors} />

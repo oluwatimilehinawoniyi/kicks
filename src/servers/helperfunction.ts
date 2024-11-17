@@ -5,8 +5,8 @@ const brands = [
   "Adidas",
   "Puma",
   "Reebok",
-  "New Balance",
-  "Under Armour",
+  "Ashluxe",
+  "Vapor",
 ];
 const adjectives = [
   "Air",
@@ -26,7 +26,7 @@ const themes = [
   "Sprint",
   "Trail",
 ];
-const numbers = ["1", "2", "3", "07", "X", "Elite", "XI", "99"];
+const numbers = ["1", "2", "3", "07", "X", "II", "XI", "99"];
 
 const getRandomName = (): string => {
   const brand = getRandomItem(brands);

@@ -1,11 +1,12 @@
 import useFetchShoes from '@/hooks/useFetchShoes';
 import ProductsList from '../ProductListContainer/ProductsList/ProductsList';
 import styles from './Recommendation.module.css'
+import { getRandomProducts } from '@/utils';
 
 
 export default function Recommendation() {
   const { shoes } = useFetchShoes()
-  const products = shoes.slice(0, 4);
+  const products = getRandomProducts(shoes, 8);
 
   return (
     <section className={styles.recommendation}>
